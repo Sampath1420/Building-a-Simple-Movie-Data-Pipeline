@@ -149,7 +149,7 @@ python sql.py
 
 ---
 
-## 🚧 5. Challenges Faced (2–3 minutes)
+## 🚧 5. Challenges Faced
 
 | **Challenge** | **Solution** |
 |----------------|--------------|
@@ -161,7 +161,7 @@ python sql.py
 
 ---
 
-## 🚀 6. Future Improvements & Scalability (3–4 minutes)
+## 🚀 6. Future Improvements & Scalability
 
 | **Area** | **Improvement** |
 |-----------|----------------|
