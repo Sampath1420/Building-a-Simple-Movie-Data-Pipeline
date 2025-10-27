@@ -83,9 +83,6 @@ API_LIMIT = 1000
 
 ### 2️⃣ Transformation & Enrichment
 
-- Cleans OMDb API data:
-  - Converts runtime (`"142 min"` → `142`)
-  - Converts box office (`"$120,000,000"` → `120000000`)
 - Enriches movies not yet in the cache.
 - Updates cache file after successful/failed API calls.
 - Processes genres into a lookup table and creates a many-to-many junction table.
@@ -148,6 +145,7 @@ python sql.py
 - API enrichment is **limited per day** to avoid exceeding OMDb free tier limits.
 - Cache file (`omdb_cache.csv`) ensures that repeated runs do not redundantly fetch API data.
 - Pipeline handles missing or malformed data gracefully (e.g., missing box office or runtime).
+
 
 ---
 
